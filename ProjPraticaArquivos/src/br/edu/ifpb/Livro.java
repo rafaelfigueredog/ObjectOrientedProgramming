@@ -1,9 +1,18 @@
 package br.edu.ifpb;
 
-public class Livro {
+import java.io.Serializable;
+
+public class Livro implements Serializable {
 
     private int codigo;
     private String titulo;
+
+    @Override
+    public String toString() {
+        return  "\nLivro:" +
+                "\ncodigo: " + codigo +
+                "\ntitulo: " + titulo;
+    }
 
     public Livro(int codigo, String titulo) {
         this.codigo = codigo;
@@ -25,6 +34,4 @@ public class Livro {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-
-
 }
