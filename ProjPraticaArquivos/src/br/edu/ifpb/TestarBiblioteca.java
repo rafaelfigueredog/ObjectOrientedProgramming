@@ -8,6 +8,7 @@ public class TestarBiblioteca {
         b.cadastrarLivro(1, "JavaCore");
         b.cadastrarLivro(2, "Python");
         b.cadastrarLivro(3, "C++");
+        b.cadastrarLivro(4, "PHP");
 
         b.listarLivros();
 

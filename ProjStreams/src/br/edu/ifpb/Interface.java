@@ -40,6 +40,7 @@ public class Interface {
                     break;
                 case 5:
                     pasta.toString();
+                    break;
                 case 6:
                     sair = true;
                     break;
