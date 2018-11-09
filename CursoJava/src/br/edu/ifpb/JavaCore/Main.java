@@ -1,4 +1,4 @@
-package br.edu.ifpb;
+package br.edu.ifpb.JavaCore;
 
 import java.util.Scanner;
 
