@@ -4,13 +4,14 @@ public class AulaArrays {
 
     public static void main(String[] args) {
 
-        String[] nomes = new String[10];
-        nomes[1] = "Rafael";
-        nomes[2] = "Danilo";
-        nomes[3] = "Getulio";
-        nomes[4] = "Dayane";
-        for (int i = 0; i < 10; i++) {
-            System.out.println(nomes[i]);
+        String[] nomes = new String[4];
+
+        nomes[0] = "Rafael";
+        nomes[1] = "Danilo";
+        nomes[2] = "Getulio";
+        nomes[3] = "Dayane";
+        for (String aux:nomes) {
+            System.out.println(aux);
         }
     }
 
