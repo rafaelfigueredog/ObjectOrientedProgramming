@@ -1,6 +1,7 @@
 package br.edu.ifpb;
 
 import java.io.Serializable;
+import java.lang.Comparable;
 
 public class Livro implements Serializable {
 

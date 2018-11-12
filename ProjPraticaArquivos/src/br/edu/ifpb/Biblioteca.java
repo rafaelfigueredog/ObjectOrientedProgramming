@@ -37,6 +37,8 @@ public class Biblioteca implements Serializable {
         System.out.println("]");
     }
 
+    public void ordenar
+
     public Livro buscar(int codigo) {
 
         for (int i = 0; i < listaLivros.size(); i++) {

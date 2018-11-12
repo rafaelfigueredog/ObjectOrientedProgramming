@@ -9,13 +9,8 @@ public class TestarBiblioteca {
         b.cadastrarLivro(2, "Python");
         b.cadastrarLivro(3, "C++");
         b.cadastrarLivro(4, "PHP");
-
+        b.cadastrarLivro(5, "JavaDeitel");
         b.listarLivros();
-
-
-        System.out.println(b.buscar(1));
-        System.out.println(b.buscar(10));
-        System.out.println(b.buscar(2));
 
         b.backup("livros.txt");
     }
