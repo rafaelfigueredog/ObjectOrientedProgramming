@@ -1,9 +1,9 @@
 class Main {
 
-	public static int fatorial(int n) {
-		int resultado = 1; 
+	public static long fatorial(int n) {
+		long resultado = 1; 
 		
-		for(int i = n; i >= 1; i--) {
+		for(long i = n; i >= 1; i--) {
 			resultado *= i;	
 		}		
 		
@@ -35,11 +35,8 @@ class Main {
 		}
 		*/
 		
-		for (int i = 1; i < 10; i++ ) {
-			System.out.println( fatorial(i) );		
-		}
-
-		
-				 	
+		for (int i = 1; i < 100; i++ ) {
+			System.out.printf("%d, %ld\n", i, fatorial(i));		
+		}				 	
 	}
 }
