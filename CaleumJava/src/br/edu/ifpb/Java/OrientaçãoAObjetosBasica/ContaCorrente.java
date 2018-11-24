@@ -46,4 +46,10 @@ public class ContaCorrente {
         }
     }
 
+    public void transferir (ContaCorrente destino, double valor) {
+        if (valor > 0 && valor < this.saldo)
+            destino.depositar(valor);
+            this.saldo -= valor;
+    }
+
 }
