@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b4721c-eeee-4ebb-b771-4b928974b3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Agencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/DasafioFibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/FatorialRecursivo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/ForEncadeado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/SequenciaRecursiva.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/DasafioFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/Basico/DasafioFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/FatorialRecursivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/Basico/FatorialRecursivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/Basico/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/ForEncadeado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/Basico/ForEncadeado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/Basico/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/SequenciaRecursiva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/Basico/SequenciaRecursiva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,13 +29,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1681" />
+          <entry key="java" value="2035" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1681" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="2035" />
+          <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="120">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -80,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="432">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -98,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="393">
+              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
               <folding>
                 <element signature="e#337#338#0" expanded="true" />
                 <element signature="e#364#365#0" expanded="true" />
@@ -107,6 +94,7 @@
                 <element signature="e#436#437#0" expanded="true" />
                 <element signature="e#469#470#0" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
                 <element signature="e#610#611#0" expanded="true" />
                 <element signature="e#638#639#0" expanded="true" />
@@ -140,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/JavaBasico/Main.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Agencia.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.java" />
       </list>
     </option>
   </component>
@@ -190,7 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543084633882" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543087407047" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -300,6 +288,14 @@
       <option name="presentableId" value="Default" />
       <updated>1542042030966</updated>
     </task>
+    <task id="LOCAL-00001" summary="by IntelliJ">
+      <created>1543087393036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543087393036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -338,6 +334,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="by IntelliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="by IntelliJ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -432,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="393">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
           <folding>
             <element signature="e#337#338#0" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
@@ -441,6 +441,7 @@
             <element signature="e#436#437#0" expanded="true" />
             <element signature="e#469#470#0" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
             <element signature="e#578#579#0" expanded="true" />
             <element signature="e#610#611#0" expanded="true" />
             <element signature="e#638#639#0" expanded="true" />
@@ -450,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="432">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
