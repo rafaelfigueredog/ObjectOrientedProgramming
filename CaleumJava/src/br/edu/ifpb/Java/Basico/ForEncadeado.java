@@ -1,4 +1,4 @@
-package br.edu.ifpb;
+package br.edu.ifpb.Java.Basico;
 
 import java.util.Scanner;
 
