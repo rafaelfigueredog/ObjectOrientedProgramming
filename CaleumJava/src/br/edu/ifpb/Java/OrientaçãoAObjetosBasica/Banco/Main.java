@@ -1,4 +1,4 @@
-package br.edu.ifpb.Java.OrientaçãoAObjetosBasica;
+package br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Banco;
 
 public class Main {
 
@@ -12,9 +12,9 @@ public class Main {
         System.out.println(cc.getSaldo());
         cc.sacar(601);
         System.out.println(cc.getSaldo());
-
-        cc.transferir(cca, 200);
+        cc.transferir(cca, 30);
         System.out.println("Saldo Conta 1: " + cc.getSaldo());
         System.out.println("Saldo Conta 2: " + cca.getSaldo());
+
     }
 }

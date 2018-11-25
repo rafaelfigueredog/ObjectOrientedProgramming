@@ -1,4 +1,4 @@
-package br.edu.ifpb.Java.OrientaçãoAObjetosBasica;
+package br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Banco;
 
 public class ContaCorrente {
 
@@ -46,10 +46,13 @@ public class ContaCorrente {
         }
     }
 
-    public void transferir (ContaCorrente destino, double valor) {
-        if (valor > 0 && valor < this.saldo)
+    public boolean transferir (ContaCorrente destino, double valor) {
+        if (valor > 0 && valor < this.saldo) {
             destino.depositar(valor);
             this.saldo -= valor;
+            return true;
+        }
+        return false;
     }
 
 }
