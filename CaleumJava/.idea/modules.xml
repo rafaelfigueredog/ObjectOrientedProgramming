@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CaleumJava.iml" filepath="$PROJECT_DIR$/CaleumJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/Zoologico-v1-Composicao-Heranca-Excecoes-Streams.iml" filepath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/Zoologico-v1-Composicao-Heranca-Excecoes-Streams.iml" />
     </modules>
   </component>
 </project>

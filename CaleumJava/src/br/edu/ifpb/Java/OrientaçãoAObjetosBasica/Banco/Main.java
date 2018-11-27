@@ -1,5 +1,7 @@
 package br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Banco;
 
+import java.util.Date;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,6 +17,7 @@ public class Main {
         cc.transferir(cca, 30);
         System.out.println("Saldo Conta 1: " + cc.getSaldo());
         System.out.println("Saldo Conta 2: " + cca.getSaldo());
+        System.out.println(cc.getDataDeAbertura());
 
     }
 }

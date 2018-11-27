@@ -5,11 +5,23 @@ public class ContaCorrente {
     private String nome;
     private String numero;
     private double saldo;
+    private Data dataDeAbertura;
 
     public ContaCorrente(String nome, String numero) {
         this.nome = nome;
         this.numero = numero;
         this.saldo = 0.0;
+        this.dataDeAbertura = new Data();
+    }
+
+    public ContaCorrente() {
+        this.nome = "SemNome";
+        this.numero = "0000";
+        this.saldo = 0.0;
+    }
+
+    public Data getDataDeAbertura() {
+        return dataDeAbertura;
     }
 
     public String getNome() {

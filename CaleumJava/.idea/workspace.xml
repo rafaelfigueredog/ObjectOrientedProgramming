@@ -2,17 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b4721c-eeee-4ebb-b771-4b928974b3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/TestarCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Exceções/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Exceções/TesteErro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListaExerciciosExcessoes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListaExerciciosExcessoes/src/br/edu/ifpb/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListaExerciciosExcessoes/src/br/edu/ifpb/SuperCass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListaExerciciosExcessoes/src/br/edu/ifpb/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Agencia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaleumJava/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Agencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/CheckList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/out/production/CheckList/br/edu/ifpb/CheckList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/out/production/CheckList/br/edu/ifpb/Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/out/production/CheckList/br/edu/ifpb/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/src/br/edu/ifpb/CheckList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/src/br/edu/ifpb/Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckList/src/br/edu/ifpb/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/CursoJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/out/production/CursoJava/br/edu/ifpb/ArraysDois.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/out/production/CursoJava/br/edu/ifpb/ArraysTres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/out/production/CursoJava/br/edu/ifpb/AulaArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/out/production/CursoJava/br/edu/ifpb/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/out/production/CursoJava/br/edu/ifpb/Matriz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/br/edu/ifpb/Arrays/ArraysDois.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/br/edu/ifpb/Arrays/ArraysTres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/br/edu/ifpb/Arrays/AulaArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/br/edu/ifpb/Arrays/Matriz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/br/edu/ifpb/Classes/Estudante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/br/edu/ifpb/JavaCore/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaExerciciosExcessoes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaExerciciosExcessoes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaExerciciosExcessoes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaExerciciosExcessoes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaExerciciosExcessoes/src/br/edu/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaExerciciosExcessoes/src/br/edu/ifpb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NotePad/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NotePad/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/TryExeption.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/bin/br/edu/ifpb/Cadastro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/bin/br/edu/ifpb/IdadeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/bin/br/edu/ifpb/NomeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/bin/br/edu/ifpb/SalarioException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/bin/br/edu/ifpb/TestarCadastro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/out/production/TryExeption/br/edu/ifpb/Cadastro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/out/production/TryExeption/br/edu/ifpb/IdadeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/out/production/TryExeption/br/edu/ifpb/NomeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/out/production/TryExeption/br/edu/ifpb/SalarioException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/out/production/TryExeption/br/edu/ifpb/TestarCadastro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/src/br/edu/ifpb/Cadastro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/src/br/edu/ifpb/IdadeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/src/br/edu/ifpb/NomeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/src/br/edu/ifpb/SalarioException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TryExeption/src/br/edu/ifpb/TestarCadastro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/.settings/org.jboss.ide.eclipse.as.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/Zoologico-v1-Composicao-Heranca-Excecoes-Streams.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/AnimalNaoEncontradoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/ArmazenamentoEmArquivoBinario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/GeradorIdNanotime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/MenuPrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/ZooException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/ZooRuntimeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/dominio/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/dominio/Cobra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/dominio/Leao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/dominio/Zebra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/bin/br/edu/ifpb/dominio/Zoologico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/AnimalNaoEncontradoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/ArmazenamentoEmArquivoBinario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/GeradorIdNanotime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/MenuPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/ZooException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/ZooRuntimeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/dominio/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/dominio/Cobra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/dominio/Leao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/dominio/Zebra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/dominio/Zoologico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams/zoo.ser" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,38 +124,39 @@
     <session id="-950712985">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="2368" />
-          <entry key="txt" value="13" />
+          <entry key="java" value="3268" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2368" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="3268" />
+          <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="32" />
           <entry key="kt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="32" />
           <entry key="Kotlin" value="1" />
         </counts>
       </usages-collector>
@@ -65,23 +165,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Carro.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="96">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/TestarCarro.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Exceções/TesteErro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="-63">
+              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Exceções/Divide.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/ContaCorrente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding>
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,26 +254,33 @@
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Agencia.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/ContaCorrente.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Main.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/ContaCorrente.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Motor.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/TestarCarro.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Carro.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/Exceções/TesteErro.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/TesteErro.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Exceções/TesteErro.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/ContaCorrente.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Data.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Exceções/Divide.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="width" value="950" />
+    <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="false" />
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,39 +297,12 @@
               <item name="CaleumJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="CaleumJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CaleumJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CaleumJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CaleumJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CaleumJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CaleumJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CaleumJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CaleumJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="CaleumJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="OrientaçãoAObjetosBasica" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -189,32 +310,23 @@
               <item name="CaleumJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="CaleumJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="OrientaçãoAObjetosBasica" type="462c0819:PsiDirectoryNode" />
-              <item name="Banco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CaleumJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CaleumJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="OrientaçãoAObjetosBasica" type="462c0819:PsiDirectoryNode" />
-              <item name="FabricaDeCarros" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceções" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543175355588" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543325758381" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zoologico-v1-Composicao-Heranca-Excecoes-Streams" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -230,13 +342,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestarCarro">
-    <configuration name="DasafioFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.Java.Basico.DasafioFibonacci" />
+  <component name="RunManager" selected="Application.Divide">
+    <configuration name="Divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Exceções.Divide" />
       <module name="CaleumJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.edu.ifpb.Java.Basico.*" />
+          <option name="PATTERN" value="br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Exceções.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,25 +356,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FatorialRecursivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.Java.Basico.FatorialRecursivo" />
-      <module name="CaleumJava" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.edu.ifpb.Java.Basico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForEncadeado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.Java.Basico.ForEncadeado" />
-      <module name="CaleumJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.edu.ifpb.Java.Basico.*" />
+          <option name="PATTERN" value="br.edu.ifpb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,7 +373,7 @@
       <module name="CaleumJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Banco.*" />
+          <option name="PATTERN" value="br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Exceções.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,20 +394,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteErro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Exceções.TesteErro" />
+      <module name="CaleumJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.ifpb.Java.OrientaçãoAObjetosBasica.Exceções.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ForEncadeado" />
-      <item itemvalue="Application.DasafioFibonacci" />
-      <item itemvalue="Application.FatorialRecursivo" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestarCarro" />
+      <item itemvalue="Application.TesteErro" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Divide" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestarCarro" />
+        <item itemvalue="Application.Divide" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FatorialRecursivo" />
-        <item itemvalue="Application.DasafioFibonacci" />
-        <item itemvalue="Application.ForEncadeado" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.TesteErro" />
+        <item itemvalue="Application.TestarCarro" />
       </list>
     </recent_temporary>
   </component>
@@ -338,14 +449,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543087453475</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fabrica de Carros Caleum">
+      <created>1543175395362</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543175395362</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26307365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12379936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,7 +472,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.32942432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39957717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +528,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="by IntelliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="by IntelliJ" />
+    <MESSAGE value="Fabrica de Carros Caleum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fabrica de Carros Caleum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -490,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/ContaCorrente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Agencia.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -504,30 +616,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/TestarCarro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Motor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Exceções.java" />
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/Carro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="192">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/FabricaDeCarros/TestarCarro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/ContaCorrente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Banco/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Exceções/TesteErro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Java/OrientaçãoAObjetosBasica/Exceções/Divide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CaleumJava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

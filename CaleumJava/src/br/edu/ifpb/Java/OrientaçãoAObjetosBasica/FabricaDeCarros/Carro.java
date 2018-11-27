@@ -6,6 +6,7 @@ public class Carro {
     String modelo;
     double velocidadeAtual;
     double velocidadeMaxima;
+    Motor motor;
 
     void liga() {
         System.out.println("ligado");
