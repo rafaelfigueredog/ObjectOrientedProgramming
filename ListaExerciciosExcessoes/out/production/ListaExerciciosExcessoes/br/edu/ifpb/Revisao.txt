@@ -1,0 +1,16 @@
+
+1)
+    1. ArrayIndexOutOfBoundsException
+    2. IllegalArgumentException
+    3. ArithmeticException, InputMismatchException
+    4. SecurityException
+    5. FileNotFoundException, IOException
+
+2) O tratamento de exceçoes permite criar aplicativos que podem resolver ou tratar  (exceções) como se nenhum problema tivesse sido encontrado.
+
+3) Vazamento de Recursos podem ser arquivos, conexões de banco de dados, conexões de rede, uso da memória que não são fechadas adequadamente depois que não são mais necessárias;
+
+4) Executa todos os comandos do bloco try e pula o bloco catch.
+
+5)
+
