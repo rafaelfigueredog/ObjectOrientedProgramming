@@ -1,6 +1,6 @@
 package br.edu.ifpb.GestãoPessoas;
 
-public class Pessoa {
+public abstract class Pessoa {
 
     private String nome;
     private String telefone;

@@ -1,27 +1,28 @@
 package br.edu.ifpb.GestaoProdutos;
-
 import br.edu.ifpb.PrecoInvalidoException;
 
-public class Produto {
+public abstract class Produto {
 
-    private double preço;
+    private double preco;
 
-    public Produto(double preço) {
-        this.preço = preço;
+    public Produto(double preco) {
+        this.preco = preco;
     }
 
-    public double getPreço() {
-        return preço;
+    public double getPreco() {
+        return preco;
     }
 
-    public void setPreço(double preço) {
-        this.preço = preço;
+    public void setPreco(double preco) throws PrecoInvalidoException {
+        if (preco < 0) {
+            throw new PrecoInvalidoException("");
+        }
+        this.preco = preco;
     }
 
     @Override
     public String toString() {
-        return "Produto{" +
-                "preço=" + preço +
-                '}';
+        return "Produto: " +
+                "\npreço: " + preco;
     }
 }

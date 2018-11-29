@@ -1,18 +1,23 @@
 package br.edu.ifpb.GestaoProdutos;
 
-public class Livro extends Produto {
+import br.edu.ifpb.PrecoInvalidoException;
+
+import java.util.Objects;
+
+public class Livro extends Produto implements Comparable<Livro> {
 
     private String nome;
     private String autor;
-    private String Edição;
-    private String Ano;
+    private String edicao;
+    private Integer ano;
 
-    public Livro(double preço, String nome, String autor, String edição, String ano) {
-        super(preço);
+
+    public Livro(double preco, String nome, String autor, String edicao, Integer ano) {
+        super(preco);
         this.nome = nome;
         this.autor = autor;
-        Edição = edição;
-        Ano = ano;
+        this.edicao = edicao;
+        this.ano = ano;
     }
 
     public String getNome() {
@@ -31,29 +36,34 @@ public class Livro extends Produto {
         this.autor = autor;
     }
 
-    public String getEdição() {
-        return Edição;
+    public String getEdicao() {
+        return edicao;
     }
 
-    public void setEdição(String edição) {
-        Edição = edição;
+    public void setEdicao(String edicao) {
+        this.edicao = edicao;
     }
 
-    public String getAno() {
-        return Ano;
+    public Integer getAno() {
+        return ano;
     }
 
-    public void setAno(String ano) {
-        Ano = ano;
+    public void setAno(Integer ano) {
+        this.ano = ano;
+    }
+
+    @Override
+    public int compareTo(Livro o) {
+        return this.ano.compareTo(o.getAno());
     }
 
     @Override
     public String toString() {
-        return "Livro{" +
-                "nome='" + nome + '\'' +
-                ", autor='" + autor + '\'' +
-                ", Edição='" + Edição + '\'' +
-                ", Ano='" + Ano + '\'' +
+        return "Livro {" +
+                "nome: " + nome + "\' " +
+                "autor: " + autor + "\' " +
+                "edicao: " + edicao + "\' " +
+                "ano: " + ano +
                 '}';
     }
 }

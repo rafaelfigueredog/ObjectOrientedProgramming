@@ -5,10 +5,50 @@ public class Ebook extends Livro {
     private String extension;
     private String plataforma;
 
-    public Ebook(double preço, String nome, String autor, String edição, String ano, String extension, String plataforma) {
-        super(preço, nome, autor, edição, ano);
+    public Ebook(double preco, String nome, String autor, String edicao, Integer ano, String extension, String plataforma) {
+        super(preco, nome, autor, edicao, ano);
         this.extension = extension;
         this.plataforma = plataforma;
+    }
+
+    @Override
+    public String getNome() {
+        return super.getNome();
+    }
+
+    @Override
+    public void setNome(String nome) {
+        super.setNome(nome);
+    }
+
+    @Override
+    public String getAutor() {
+        return super.getAutor();
+    }
+
+    @Override
+    public void setAutor(String autor) {
+        super.setAutor(autor);
+    }
+
+    @Override
+    public String getEdicao() {
+        return super.getEdicao();
+    }
+
+    @Override
+    public void setEdicao(String edicao) {
+        super.setEdicao(edicao);
+    }
+
+    @Override
+    public Integer getAno() {
+        return super.getAno();
+    }
+
+    @Override
+    public void setAno(Integer ano) {
+        super.setAno(ano);
     }
 
     public String getExtension() {
@@ -29,9 +69,8 @@ public class Ebook extends Livro {
 
     @Override
     public String toString() {
-        return "Ebook{" +
-                "extension='" + extension + '\'' +
-                "plataforma='" + plataforma + '\'' +
-                '}';
+        return "Ebook: " +
+                "\nextension: " + extension +
+                "\nplataforma: " + plataforma;
     }
 }
