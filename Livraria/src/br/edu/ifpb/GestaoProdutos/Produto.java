@@ -1,5 +1,5 @@
 package br.edu.ifpb.GestaoProdutos;
-import br.edu.ifpb.PrecoInvalidoException;
+import br.edu.ifpb.Exceções.PrecoInvalidoException;
 
 public abstract class Produto {
 

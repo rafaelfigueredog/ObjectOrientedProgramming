@@ -1,9 +1,5 @@
 package br.edu.ifpb.GestaoProdutos;
 
-import br.edu.ifpb.PrecoInvalidoException;
-
-import java.util.Objects;
-
 public class Livro extends Produto implements Comparable<Livro> {
 
     private String nome;

@@ -1,8 +1,8 @@
 package br.edu.ifpb;
 
+import br.edu.ifpb.Exceções.PrecoInvalidoException;
 import br.edu.ifpb.GestaoProdutos.Livro;
 
-import java.util.ArrayList;
 import java.util.Collections;
 
 public class Main {

@@ -1,4 +1,4 @@
-package br.edu.ifpb;
+package br.edu.ifpb.Exceções;
 
 public class PrecoInvalidoException extends Exception {
     @Override
