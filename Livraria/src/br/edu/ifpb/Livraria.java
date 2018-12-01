@@ -1,83 +1,48 @@
 package br.edu.ifpb;
-import br.edu.ifpb.GestaoProdutos.Ebook;
-import br.edu.ifpb.GestaoProdutos.Livro;
-import br.edu.ifpb.GestãoPessoas.Cliente;
-import br.edu.ifpb.GestãoPessoas.Funcionario;
 
+import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
-public class Livraria {
+public class Livraria implements Serializable {
 
-    private String endereço;
-    private List<Livro> livros;
-    private List<Ebook> ebooks;
-    private List<Funcionario> funcionarios;
-    private List<Cliente> clientes;
+    private GeradorId geradorId;
+    private List<Produto> produtos;
 
 
-    public Livraria(String endereço) {
-        this.endereço = endereço;
-        this.livros = new ArrayList<Livro>();
-        this.ebooks = new ArrayList<Ebook>();
-        this.funcionarios = new ArrayList<Funcionario>();
-        this.clientes = new ArrayList<Cliente>();
+    public Livraria(GeradorId geradorId) {
+        this.produtos = new ArrayList<Produto>();
+        this.geradorId = geradorId;
     }
 
-    public String getEndereço() {
-        return endereço;
+    public GeradorId getGeradorId() {
+        return geradorId;
     }
 
-    public void setEndereço(String endereço) {
-        this.endereço = endereço;
+    public void setGeradorId(GeradorId geradorId) {
+        this.geradorId = geradorId;
     }
 
-    public List<Livro> getLivros() {
-        return livros;
+    public List<Produto> getProdutos() {
+        return produtos;
     }
 
-    public void setLivros(List<Livro> livros) {
-        this.livros = livros;
+    public void setProdutos(List<Produto> produtos) {
+        this.produtos = produtos;
     }
 
-    public List<Ebook> getEbooks() {
-        return ebooks;
-    }
-
-    public void setEbooks(List<Ebook> ebooks) {
-        this.ebooks = ebooks;
-    }
-
-    public List<Funcionario> getFuncionarios() {
-        return funcionarios;
-    }
-
-    public void setFuncionarios(List<Funcionario> funcionarios) {
-        this.funcionarios = funcionarios;
-    }
-
-    public List<Cliente> getClientes() {
-        return clientes;
-    }
-
-    public void setClientes(List<Cliente> clientes) {
-        this.clientes = clientes;
-    }
-
-    public void listarLivros() {
-        for (Livro livro: livros) {
-            System.out.println(livro.toString());
+    public void listarProdutos() {
+        for (Produto produto: produtos) {
+            System.out.println(produto.toString());
         }
     }
 
     public void adicionarLivro(Livro livro){
-        this.livros.add(livro);
+        this.produtos.add(livro);
     }
 
     public void adicionarEbook(Ebook ebook) {
-        this.ebooks.add(ebook);
+        this.produtos.add(ebook);
     }
 
 

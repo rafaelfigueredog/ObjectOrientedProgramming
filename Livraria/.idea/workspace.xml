@@ -2,15 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f860000-1c50-4cb9-a1dc-f18fda1a7818" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorIdSequencial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/BookStoreException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorIdNanoTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorIdSequencial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmBinario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/GestaoProdutos/Ebook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/GestaoProdutos/Livro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/GestaoProdutos/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/GestãoPessoas/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/GestãoPessoas/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/GestãoPessoas/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/Livraria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Livraria/br/edu/ifpb/PrecoInvalidoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/ArmazenamentoEmBinario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Exceções/PrecoInvalidoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/PrecoInvalidoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorIdSequencial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Ebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Livraria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Livraria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/PrecoInvalidoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/Exceções/PrecoInvalidoException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,64 +39,93 @@
     <session id="-325687219">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="76" />
+          <entry key="java" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3195" />
-          <entry key="txt" value="10" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="4564" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3195" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="4564" />
+          <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmBinario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorId.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorIdSequencial.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/ArmazenamentoEmBinario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="129">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Produto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorIdNanoTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Livraria.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -100,26 +145,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Produto.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Livro.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Ebook.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Produtos/Ebook.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Pessoa.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Ebook.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Livraria.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/PrecoInvalidoException.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Main.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Pessoa.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Cliente.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Livro.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Produto.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmBinario.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/GeradorIdSequencial.java" />
         <option value="$USER_HOME$/Downloads/Zoologico-v2-Interfaces-Classes-Abstratas/src/br/edu/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Livro.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorIdSequencial.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Produto.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GeradorIdNanoTime.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GeradorIdSequencial.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/bookstoreException.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/GeradorId.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/BookStoreException.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Produto.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Livraria.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/ArmazenamentoEmBinario.java" />
       </list>
     </option>
   </component>
@@ -133,6 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,12 +207,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543520440732" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543589567011" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Zoologico-v2-Interfaces-Classes-Abstratas" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -215,13 +265,27 @@
       <option name="project" value="LOCAL" />
       <updated>1543518655022</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="GeradorId Interface">
+      <created>1543520455855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543520455855</updated>
+    </task>
+    <task id="LOCAL-00003" summary="GeradorId Interface">
+      <created>1543520463910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543520463910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26574174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15848452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,7 +302,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32942432" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32942432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,43 +314,14 @@
       <window_info anchor="right" id="Flutter Inspector" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32942432" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32942432" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978677" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32942432" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Flutter Outline" order="7" />
-      <window_info anchor="right" id="Flutter Inspector" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GeradorId" />
-    <option name="LAST_COMMIT_MESSAGE" value="GeradorId" />
+    <MESSAGE value="GeradorId Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="GeradorId Interface" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///opt/jdk1.8.0_191/src.zip!/java/lang/Object.java">
@@ -303,59 +338,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Livro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/Ebook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Pessoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Cliente.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Funcionario.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestãoPessoas/Pessoa.java" />
     <entry file="file://$USER_HOME$/Downloads/Zoologico-v1-Composicao-Heranca-Excecoes-Streams/src/br/edu/ifpb/GeradorIdNanotime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -384,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Livraria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Zoologico-v2-Interfaces-Classes-Abstratas/src/br/edu/ifpb/armazenamento/ArmazenamentoEmArquivoBinario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -405,13 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Exceções/PrecoInvalidoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GestaoProdutos/GeradorIdSequencial.java" />
     <entry file="file://$USER_HOME$/Downloads/Zoologico-v2-Interfaces-Classes-Abstratas/src/br/edu/ifpb/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -420,24 +391,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Armazenamento/ArmazenamentoEmBinario.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Ebook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorId.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorId/GeradorIdSequencial.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorIdSequencial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="417">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/PrecoInvalidoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/BookStoreException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/ArmazenamentoEmBinario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorIdNanoTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/GeradorId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/Livraria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
