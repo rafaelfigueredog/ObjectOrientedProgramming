@@ -9,9 +9,10 @@ public abstract class Produto {
     private Integer quatidade;
     private MinhaData dataValidade;
 
-    public Produto(String marca, Integer quatidade) {
+    public Produto(String marca, Integer quatidade, MinhaData dataValidade) {
         this.marca = marca;
         this.quatidade = quatidade;
+        this.dataValidade = dataValidade;
     }
 
     public Long getId() {

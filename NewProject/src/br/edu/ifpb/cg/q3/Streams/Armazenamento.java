@@ -4,10 +4,7 @@ import br.edu.ifpb.cg.q3.Estoque;
 import br.edu.ifpb.cg.q3.EstoqueException;
 import br.edu.ifpb.cg.q3.GeradorId;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
+import java.io.*;
 
 public class Armazenamento {
 
@@ -32,5 +29,12 @@ public class Armazenamento {
         return stocks;
     }
 
-
+    public void armazenar(Estoque stocks) throws EstoqueException {
+        try (FileOutputStream fos = new FileOutputStream(this.nomeDoArquivo);
+             ObjectOutputStream oos = new ObjectOutputStream(fos);) {
+            oos.writeObject(stocks);
+        } catch (IOException e) {
+            throw new EstoqueException("Houve algum erro ao tentar armazenar os dados do Estoque!", e);
+        }
+    }
 }

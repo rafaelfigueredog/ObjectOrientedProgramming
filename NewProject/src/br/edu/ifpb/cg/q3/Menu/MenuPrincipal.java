@@ -52,12 +52,12 @@ public class MenuPrincipal extends AbstractMenu {
         this.menuDiminuirQuantidade = new MenuDiminuirQuantidade(stocks, input);
     }
 
-    public void exibirMenu() throws EstoqueException  {
+    public boolean exibirMenu() throws EstoqueException  {
         byte opcao = 0;
         String menu = "";
-        menu += "=============================================================" + ls;
-        menu += "                       Menu Principal                        " + ls;
-        menu += "=============================================================" + ls;
+        menu += "=========================================" + ls;
+        menu += "               Menu Principal            " + ls;
+        menu += "=========================================" + ls;
         menu += ++opcao + " - Listar Produtos" + ls;
         menu += ++opcao + " - Listar Produtos em Ordem Alfabetica" + ls;
         menu += ++opcao + " - Listar Produtos em Ordem Crescente de Quantidade" + ls;
