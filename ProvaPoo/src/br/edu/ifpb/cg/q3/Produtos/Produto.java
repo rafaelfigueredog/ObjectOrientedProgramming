@@ -1,17 +1,26 @@
 package br.edu.ifpb.cg.q3.Produtos;
+import br.edu.ifpb.cg.q3.Data.MinhaData;
 
-import br.edu.ifpb.cg.q3.MinhaData;
+import java.io.Serializable;
 
-public abstract class Produto {
+public abstract class Produto implements Comparable<Produto>, Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private Long id;
     private String marca;
     private Integer quatidade;
     private MinhaData dataValidade;
 
-    public Produto(String marca, Integer quatidade) {
+    public Produto(String marca, Integer quatidade, MinhaData dataValidade) {
         this.marca = marca;
         this.quatidade = quatidade;
+        this.dataValidade = dataValidade;
+    }
+
+    @Override
+    public int compareTo(Produto o) {
+        return this.marca.compareTo(o.getMarca());
     }
 
     public Long getId() {
@@ -46,13 +55,13 @@ public abstract class Produto {
         this.dataValidade = dataValidade;
     }
 
+
     @Override
     public String toString() {
-        return "Produto{" +
-                "id: " + id +
-                "marca: '" + marca + '\'' +
-                "quatidade: " + quatidade +
-                "dataValidade: " + dataValidade +
-                '}';
+        return "Produto" +
+                "\nId: " + id +
+                "\nMarca: " + marca +
+                "\nQuatidade: " + quatidade +
+                "\nData de Validade: " + dataValidade;
     }
 }

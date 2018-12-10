@@ -1,6 +1,6 @@
 package br.edu.ifpb.cg.q3.Menu;
-import br.edu.ifpb.cg.q3.Estoque;
-import br.edu.ifpb.cg.q3.EstoqueException;
+import br.edu.ifpb.cg.q3.Produtos.Estoque;
+import br.edu.ifpb.cg.q3.Exceptions.EstoqueException;
 
 import java.util.Scanner;
 
@@ -52,23 +52,23 @@ public class MenuPrincipal extends AbstractMenu {
         this.menuDiminuirQuantidade = new MenuDiminuirQuantidade(stocks, input);
     }
 
-    public void exibirMenu() throws EstoqueException  {
+    public boolean exibirMenu() throws EstoqueException  {
         byte opcao = 0;
         String menu = "";
-        menu += "=============================================================" + ls;
-        menu += "                       Menu Principal                        " + ls;
-        menu += "=============================================================" + ls;
-        menu += ++opcao + " - Listar Produtos" + ls;
-        menu += ++opcao + " - Listar Produtos em Ordem Alfabetica" + ls;
-        menu += ++opcao + " - Listar Produtos em Ordem Crescente de Quantidade" + ls;
-        menu += ++opcao + " - Listar Produtos em Ordem Crescente de Validade" + ls;
-        menu += ++opcao + " - Listar Produtos que Estarão Vencidos" + ls;
-        menu += ++opcao + " - Adicionar Detergente" + ls;
-        menu += ++opcao + " - Adicionar Feijão" + ls;
-        menu += ++opcao + " - Remover Produto" + ls;
-        menu += ++opcao + " - Incrementar quantidade de produto do Estoque" + ls;
-        menu += ++opcao + " - Diminuuir Quantidade de Produto do Estoque" + ls;
-        menu += ++opcao + " - Sair" + ls;
+        menu += "====================================" + ls;
+        menu += "            Menu Principal          " + ls;
+        menu += "====================================" + ls;
+        menu += ++opcao + " - Listar Produtos" + ls; // ok
+        menu += ++opcao + " - Lis. Prod. Ord. Alfabetica" + ls; // ok
+        menu += ++opcao + " - Lis. Prod. Ord. Cres. de Quantidade" + ls; // ok
+        menu += ++opcao + " - Lis. Prod. Ord. Cres. de Validade" + ls; // ok
+        menu += ++opcao + " - Lis. Prod. que Estarão Vencidos" + ls;
+        menu += ++opcao + " - Adicionar Detergente" + ls; // ok
+        menu += ++opcao + " - Adicionar Feijão" + ls; // ok
+        menu += ++opcao + " - Remover Produto" + ls; // ok
+        menu += ++opcao + " - Incrementar Quantidade de Produto do Estoque" + ls; // ok
+        menu += ++opcao + " - Diminuir Quantidade de Produto do Estoque" + ls; // ok
+        menu += ++opcao + " - Sair" + ls; // ok
 
 
         while (true) {
@@ -114,7 +114,7 @@ public class MenuPrincipal extends AbstractMenu {
                     System.out.println();
                     break;
             }
-            if (menuSelecionado == null) {
+            if (menuSelecionado != null) {
                 menuSelecionado.exibirMenu();
             }
         }

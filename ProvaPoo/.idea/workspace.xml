@@ -1,7 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e0335d7-5ddf-4342-a5c1-769ba5200c07" name="Default Changelist" comment="" />
+    <list default="true" id="6e0335d7-5ddf-4342-a5c1-769ba5200c07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/ProvaPoo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q1/ResposasEscritas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q2/Streams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Estoque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/EstoqueException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/GeradorId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/AbstractMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuAdicionarFeijao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuDiminuirQuantidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuIncrementarQuantidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuListarProdutos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemAlfabetica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteQuantidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteValidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuRemoverProduto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/MinhaData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Produtos/Detergente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Produtos/Feijao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Produtos/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Streams/Armazenamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q1/ResposasEscritas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q2/Streams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Estoque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/EstoqueException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/GeradorId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/AbstractMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarFeijao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuDiminuirQuantidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuIncrementarQuantidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemAlfabetica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteQuantidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteValidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Menu/MenuRemoverProduto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/MinhaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Produtos/Detergente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Produtos/Feijao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Produtos/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/src/br/edu/ifpb/cg/q3/Streams/Armazenamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewProject/texto.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q1/ResposasEscritas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q2/Streams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Estoque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/GeradorId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/MinhaData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Produtos/Detergente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Produtos/Feijao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Produtos/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProvaPoo/br/edu/ifpb/cg/q3/Streams/Armazenamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Estoque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/EstoqueException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/GeradorId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/AbstractMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/AbstractMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarFeijao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarFeijao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuDiminuirQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuDiminuirQuantidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuIncrementarQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuIncrementarQuantidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemAlfabetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemAlfabetica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteQuantidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteValidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteValidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuRemoverProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuRemoverProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/MinhaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Detergente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Detergente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Feijao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Feijao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Streams/Armazenamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Streams/Armazenamento.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,70 +107,170 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ProvaPoo$Main.ic" NAME="Main Coverage Results" MODIFIED="1543847532449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-673992210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="61" />
+          <entry key="java" value="186" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="61" />
+          <entry key="JAVA" value="186" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="39" />
-          <entry key="java" value="8045" />
+          <entry key="dummy" value="50" />
+          <entry key="java" value="11672" />
           <entry key="txt" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8045" />
-          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="JAVA" value="11672" />
+          <entry key="PLAIN_TEXT" value="145" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="2086903144">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="2424">
+              <caret line="112" column="82" selection-start-line="112" selection-start-column="82" selection-end-line="112" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1206#1207#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemAlfabetica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="552">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Data/MinhaData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1614#1615#0" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1818#1819#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Comparadores/ComparadorDataValidade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/AbstractMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2424">
+              <caret line="112" column="54" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Produto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteValidade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,9 +280,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,7 +296,6 @@
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q2/Streams.java" />
         <option value="$PROJECT_DIR$/texto.txt" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/MinhaData.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Arquivos.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Armazenamento.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produto.java" />
@@ -103,34 +304,54 @@
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/MenuPrincipal.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/MenuAdicionarDetergente.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/Menu.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/EstoqueException.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/GeradorIdNanoTime.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/GeradorId.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Estoque.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/Menu.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/RepresentaçãoVisual.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/RepresentacaoVisual.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/MinhaData.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Streams/Armazenamento.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Estoque.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/GeradorId.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/EstoqueException.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/ProdutoNaoEncontradoException.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuIncrementarQuantidade.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutos.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuDiminuirQuantidade.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuRemoverProduto.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarFeijao.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/RepresentacaoTextual.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Estoque.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/GeradorID/GeradorId.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Comparadores/ComparadorOrdemAlfbetica.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Produto.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Feijao.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Detergente.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemAlfabetica.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Comparadores/ComparadorQuantidade.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteQuantidade.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteValidade.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemAlfabetica.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/AbstractMenu.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Data/MinhaData.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/AbstractMenu.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Comparadores/ComparadorDataValidade.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="242" />
+    <option name="x" value="960" />
     <option name="width" value="950" />
-    <option name="height" value="810" />
+    <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,31 +378,18 @@
               <item name="cg" type="462c0819:PsiDirectoryNode" />
               <item name="q3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProvaPoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProvaPoo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cg" type="462c0819:PsiDirectoryNode" />
-              <item name="q3" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProvaPoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProvaPoo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cg" type="462c0819:PsiDirectoryNode" />
-              <item name="q3" type="462c0819:PsiDirectoryNode" />
-              <item name="Streams" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543693974097" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544214369997" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -197,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Streams">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.cg.q1.Main" />
       <module name="ProvaPoo" />
@@ -214,7 +422,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.cg.q3.Main" />
       <module name="ProvaPoo" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="false" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -241,8 +449,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Streams" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Streams" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -268,19 +476,18 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1905016" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Flutter Inspector" order="2" />
@@ -291,40 +498,38 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Run" order="10" sideWeight="0.49893618" weight="0.32604057" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5010638" side_tool="true" weight="0.35218784" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.37636763" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32978722" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Flutter Inspector" order="2" />
-      <window_info anchor="right" id="Flutter Outline" order="3" visible="true" weight="0.0" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="minhaData.compareTo(produto.getDataValidade())" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>minhaData.compareTo(produto.getDataValidade())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q1/Main.java">
@@ -334,13 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jdk1.8.0_191/src.zip!/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="3240" column="31" selection-start-line="3240" selection-start-column="31" selection-end-line="3240" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///opt/jdk1.8.0_191/src.zip!/java/nio/file/Files.java" />
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q1/ResposasEscritas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -348,70 +547,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/MinhaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Streams/Menu.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Feijao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Detergente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q2/Streams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/GeradorId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,165 +562,308 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/EstoqueException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Estoque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuSair.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/RepresentacaoVisual.java" />
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Streams/Armazenamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutos.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteQuantidade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteValidade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuIncrementarQuantidade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuSair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarFeijao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="512">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuDiminuirQuantidade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="264">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/AbstractMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuRemoverProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarFeijao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/GeradorID.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Exceptions/EstoqueException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Exceptions/ProdutoNaoEncontradoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Data.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/GeradorID/GeradorId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/RepresentacaoTextual.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Feijao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Estoque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Detergente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Comparadores/ComparadorOrdemAlfbetica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Comparadores/ComparadorQuantidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteQuantidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_191/src.zip!/java/lang/Integer.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2424">
+          <caret line="112" column="82" selection-start-line="112" selection-start-column="82" selection-end-line="112" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemAlfabetica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuRemoverProduto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuAdicionarDetergente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="552">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Data/MinhaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/AbstractMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2424">
+          <caret line="112" column="54" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuListarProdutosEstVencidos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Produtos/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Menu/MenuProdutosOrdemCrescenteValidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/q3/Comparadores/ComparadorDataValidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProvaPoo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
