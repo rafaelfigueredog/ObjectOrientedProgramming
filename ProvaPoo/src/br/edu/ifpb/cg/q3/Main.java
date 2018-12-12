@@ -32,7 +32,6 @@ public class Main {
             } finally {
                 armazenamento.armazenar(stocks);
             }
-
         }
     }
 }

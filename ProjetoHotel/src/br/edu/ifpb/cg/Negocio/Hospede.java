@@ -1,9 +1,10 @@
-package br.edu.ifpb.cg;
+package br.edu.ifpb.cg.Negocio;
 
 import java.util.Date;
 
 public class Hospede extends Pessoa {
 
+    private static final long serialVersionUID = 1L;
     private Date dataNascimento;
 
     public Hospede(Long id, String nome, String cpf, Date dataNascimento) {

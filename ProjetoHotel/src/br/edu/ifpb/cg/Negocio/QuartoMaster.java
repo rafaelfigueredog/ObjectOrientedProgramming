@@ -1,7 +1,8 @@
-package br.edu.ifpb.cg;
+package br.edu.ifpb.cg.Negocio;
 
 public class QuartoMaster extends Quarto {
 
+    private static final long serialVersionUID = 1L;
     private Boolean temHidromassagem;
     private Boolean temVistaMar;
 
@@ -49,6 +50,30 @@ public class QuartoMaster extends Quarto {
     @Override
     public void setQuantidadeMaximaPessoas(Integer quantidadeMaximaPessoas) {
         super.setQuantidadeMaximaPessoas(quantidadeMaximaPessoas);
+    }
+
+    @Override
+    public String imprimir() {
+
+        String representacao = "";
+
+        representacao += "\nQuartoMaster";
+        representacao += "\nId: " + super.getId();
+        representacao += "\nNumero: " + super.getNumero();
+        representacao += "\nAndar: " + super.getAndar();
+        representacao += "\nQtdeMaxPessoas: " + super.getQuantidadeMaximaPessoas();
+        representacao += "\nTemVistaMar? " + temVistaMar;
+        representacao += "\nTemHidromassagem? " + temHidromassagem;
+
+        return representacao;
+    }
+
+    @Override
+    public String toString() {
+        return "QuartoMaster{" +
+                "temHidromassagem=" + temHidromassagem +
+                ", temVistaMar=" + temVistaMar +
+                '}';
     }
 
     public Boolean getTemHidromassagem() {

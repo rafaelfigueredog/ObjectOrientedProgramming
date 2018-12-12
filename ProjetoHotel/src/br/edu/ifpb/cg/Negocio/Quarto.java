@@ -1,9 +1,12 @@
-package br.edu.ifpb.cg;
+package br.edu.ifpb.cg.Negocio;
+import br.edu.ifpb.cg.TemRepresentacaoTextual;
 
 import java.io.Serializable;
 import java.util.Objects;
 
-public abstract class Quarto implements Serializable {
+public abstract class Quarto implements Serializable, TemRepresentacaoTextual {
+
+    private static final long serialVersionUID = 1L;
 
     private Long id;
     private Integer numero;
@@ -75,5 +78,20 @@ public abstract class Quarto implements Serializable {
                 ", andar=" + andar +
                 ", quantidadeMaximaPessoas=" + quantidadeMaximaPessoas +
                 '}';
+    }
+
+
+    @Override
+    public String imprimir() {
+
+        String representacao = "";
+
+        representacao += "\nQuarto:";
+        representacao += "\nId: " + id;
+        representacao += "\nNumero: " + numero;
+        representacao += "\nAndar: " + andar;
+        representacao += "\nQtdeMaxPessoas: " + quantidadeMaximaPessoas + "\n";
+
+        return representacao;
     }
 }

@@ -1,20 +1,30 @@
-package br.edu.ifpb.cg.q3.Menu;
-import br.edu.ifpb.cg.q3.Produtos.Estoque;
-import br.edu.ifpb.cg.q3.Data.MinhaData;
+package br.edu.ifpb.cg.Menu;
+import br.edu.ifpb.cg.Negocio.Hotel;
+
 import java.util.Scanner;
 
 public abstract class AbstractMenu implements Menu {
 
     protected static final String ls = System.lineSeparator();
-    protected Estoque stocks;
+    protected Hotel hotel;
     protected Scanner input;
 
-    public Estoque getStocks() {
-        return stocks;
+
+    public AbstractMenu(Hotel hotel, Scanner input) {
+        this.hotel = hotel;
+        this.input = input;
     }
 
-    public void setStocks(Estoque stocks) {
-        this.stocks = stocks;
+    public static String getLs() {
+        return ls;
+    }
+
+    public Hotel getHotel() {
+        return hotel;
+    }
+
+    public void setHotel(Hotel hotel) {
+        this.hotel = hotel;
     }
 
     public Scanner getInput() {
@@ -22,11 +32,6 @@ public abstract class AbstractMenu implements Menu {
     }
 
     public void setInput(Scanner input) {
-        this.input = input;
-    }
-
-    public AbstractMenu(Estoque stocks, Scanner input) {
-        this.stocks = stocks;
         this.input = input;
     }
 
@@ -81,34 +86,4 @@ public abstract class AbstractMenu implements Menu {
         return valor;
     }
 
-    protected MinhaData obterData(String mensagemProUsuario) {
-
-        Integer dia = null;
-        Integer mes = null;
-        Integer ano = null;
-
-        System.out.println(mensagemProUsuario);
-
-        while (dia == null) {
-            System.out.print("Digite o Dia: ");
-            String line = this.input.nextLine();
-            dia = Integer.parseInt(line);
-        }
-
-        while (mes == null) {
-            System.out.print("Digite o Mês: ");
-            String line = this.input.nextLine();
-            mes = Integer.parseInt(line);
-        }
-
-        while (ano == null) {
-            System.out.print("Digite o Ano: ");
-            String line = this.input.nextLine();
-            ano = Integer.parseInt(line);
-        }
-
-        System.out.println();
-        MinhaData data = new MinhaData(dia, mes, ano);
-        return data;
-    }
 }

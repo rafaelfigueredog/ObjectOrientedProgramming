@@ -1,8 +1,9 @@
-package br.edu.ifpb.cg;
+package br.edu.ifpb.cg.GeradorId;
 import java.io.Serializable;
 
-public class GeradorIdSequencial implements Serializable, GeradorID {
+public class GeradorIdSequencial implements Serializable, GeradorId {
 
+    private static final long serialVersionUID = 1L;
     private Long id;
 
     public GeradorIdSequencial() {

@@ -1,9 +1,12 @@
-package br.edu.ifpb.cg;
+package br.edu.ifpb.cg.Negocio;
+
+import br.edu.ifpb.cg.TemRepresentacaoTextual;
 
 import java.util.Objects;
 
-public class QuartoSimples extends Quarto {
+public class QuartoSimples extends Quarto implements TemRepresentacaoTextual {
 
+    private static final long serialVersionUID = 1L;
     private Boolean ehDuplo;
     private Boolean temArCondicionado;
 
@@ -82,5 +85,21 @@ public class QuartoSimples extends Quarto {
 
     public void setTemArCondicionado(Boolean temArCondicionado) {
         this.temArCondicionado = temArCondicionado;
+    }
+
+    @Override
+    public String imprimir() {
+
+        String representacao = "";
+
+        representacao += "\nQuartoMaster";
+        representacao += "\nId: " + super.getId();
+        representacao += "\nNumero: " + super.getNumero();
+        representacao += "\nAndar: " + super.getAndar();
+        representacao += "\nQtdeMaxPessoas: " + super.getQuantidadeMaximaPessoas();
+        representacao += "\nTemArCondicionado? " + temArCondicionado;
+        representacao += "\nÉ Duplo? " + ehDuplo;
+
+        return representacao;
     }
 }

@@ -1,10 +1,10 @@
-package br.edu.ifpb.cg;
-
+package br.edu.ifpb.cg.Negocio;
 import java.io.Serializable;
 import java.util.Objects;
 
 public abstract class Pessoa implements Serializable {
 
+    private static final long serialVersionUID = 1L;
     private Long id;
     private String nome;
     private String cpf;

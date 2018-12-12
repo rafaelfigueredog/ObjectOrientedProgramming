@@ -1,7 +1,8 @@
-package br.edu.ifpb.cg;
+package br.edu.ifpb.cg.Negocio;
 
 public class Funcionario extends Pessoa {
 
+    private static final long serialVersionUID = 1L;
     private Double salario;
 
 

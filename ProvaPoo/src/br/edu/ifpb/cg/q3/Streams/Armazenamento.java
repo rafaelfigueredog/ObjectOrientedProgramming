@@ -8,7 +8,6 @@ import java.io.*;
 
 public class Armazenamento {
 
-
     private String nomeDoArquivo;
 
     public Armazenamento(String nomeDoArquivo) {
@@ -16,7 +15,6 @@ public class Armazenamento {
     }
 
     public Estoque recuperar(GeradorId geradorId) throws EstoqueException {
-
         Estoque stocks = null;
         try (FileInputStream fis = new FileInputStream(this.nomeDoArquivo);
              ObjectInputStream ois = new ObjectInputStream(fis);) {
