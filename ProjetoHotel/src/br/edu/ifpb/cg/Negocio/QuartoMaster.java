@@ -1,5 +1,7 @@
 package br.edu.ifpb.cg.Negocio;
 
+import java.util.Objects;
+
 public class QuartoMaster extends Quarto {
 
     private static final long serialVersionUID = 1L;
@@ -53,17 +55,32 @@ public class QuartoMaster extends Quarto {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        QuartoMaster that = (QuartoMaster) o;
+        return Objects.equals(temHidromassagem, that.temHidromassagem) &&
+                Objects.equals(temVistaMar, that.temVistaMar);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), temHidromassagem, temVistaMar);
+    }
+
+    @Override
     public String imprimir() {
 
         String representacao = "";
 
-        representacao += "\nQuartoMaster";
+        representacao += "\nTipo: Master";
         representacao += "\nId: " + super.getId();
         representacao += "\nNumero: " + super.getNumero();
         representacao += "\nAndar: " + super.getAndar();
         representacao += "\nQtdeMaxPessoas: " + super.getQuantidadeMaximaPessoas();
-        representacao += "\nTemVistaMar? " + temVistaMar;
-        representacao += "\nTemHidromassagem? " + temHidromassagem;
+        representacao += "\nTemVistaMar? " +  ( temVistaMar ? "Sim" : "Não" );
+        representacao += "\nTemHidromassagem? " + ( temHidromassagem ? "Sim" : "Não");
 
         return representacao;
     }

@@ -73,7 +73,7 @@ public abstract class Quarto implements Serializable, TemRepresentacaoTextual {
     @Override
     public String toString() {
         return "Quarto{" +
-                "id=" + id +
+                "  id=" + id +
                 ", numero=" + numero +
                 ", andar=" + andar +
                 ", quantidadeMaximaPessoas=" + quantidadeMaximaPessoas +

@@ -86,4 +86,18 @@ public abstract class AbstractMenu implements Menu {
         return valor;
     }
 
+    protected Double obterValorDouble(String mensagemProUsuario) {
+        Double valor = null;
+        while(valor == null) {
+            System.out.print(mensagemProUsuario);
+            try {
+                String line = this.input.nextLine();
+                valor = Double.parseDouble(line);
+            } catch(NumberFormatException e) {
+                System.out.println("Erro! Valor inválido. Tente novamente!");
+            }
+        }
+        return valor;
+    }
+
 }

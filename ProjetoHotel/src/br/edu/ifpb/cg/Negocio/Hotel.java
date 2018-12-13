@@ -28,8 +28,12 @@ public class Hotel implements Serializable  {
         this.geradorId = geradorId;
     }
 
-    public void AdicionarQuarto(Quarto quarto) {
+    public void adicionarQuarto(Quarto quarto) {
         this.quartos.add(quarto);
+    }
+
+    public void adicionarFuncionario(Funcionario funcionario) {
+        this.funcionarios.add(funcionario);
     }
 
     public List getFuncionarios() {

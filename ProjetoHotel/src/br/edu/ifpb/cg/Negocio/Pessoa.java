@@ -1,16 +1,18 @@
 package br.edu.ifpb.cg.Negocio;
+import br.edu.ifpb.cg.TemRepresentacaoTextual;
+
 import java.io.Serializable;
 import java.util.Objects;
 
-public abstract class Pessoa implements Serializable {
+public abstract class Pessoa implements Serializable, TemRepresentacaoTextual {
 
     private static final long serialVersionUID = 1L;
     private Long id;
     private String nome;
-    private String cpf;
+    private Long cpf;
 
 
-    public Pessoa(Long id, String nome, String cpf) {
+    public Pessoa(Long id, String nome, Long cpf) {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
@@ -32,11 +34,11 @@ public abstract class Pessoa implements Serializable {
         this.nome = nome;
     }
 
-    public String getCpf() {
+    public Long getCpf() {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
+    public void setCpf(Long cpf) {
         this.cpf = cpf;
     }
 

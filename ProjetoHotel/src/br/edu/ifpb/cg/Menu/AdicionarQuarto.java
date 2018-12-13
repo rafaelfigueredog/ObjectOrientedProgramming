@@ -45,7 +45,7 @@ public class AdicionarQuarto extends AbstractMenu {
             Long id = hotel.getGeradorId().obterProximoId();
             QuartoMaster quartoMaster = new QuartoMaster(id, numero, andar, quantidadePessoas, temHidromassagem, temVistaMar);
 
-            hotel.AdicionarQuarto(quartoMaster);
+            hotel.adicionarQuarto(quartoMaster);
 
 
         } else {
@@ -63,7 +63,7 @@ public class AdicionarQuarto extends AbstractMenu {
             boolean temAr = obterValorBoolean("Tem Arcondicionado: ");
             Long id = hotel.getGeradorId().obterProximoId();
             QuartoSimples quartoSimples = new QuartoSimples(id, numero, andar, quantidadePessoas, ehDuplo, temAr);
-            hotel.AdicionarQuarto(quartoSimples);
+            hotel.adicionarQuarto(quartoSimples);
 
         }
         return false;

@@ -1,5 +1,4 @@
 package br.edu.ifpb.cg.Negocio;
-
 import java.util.Date;
 
 public class Hospede extends Pessoa {
@@ -7,9 +6,14 @@ public class Hospede extends Pessoa {
     private static final long serialVersionUID = 1L;
     private Date dataNascimento;
 
-    public Hospede(Long id, String nome, String cpf, Date dataNascimento) {
+    public Hospede(Long id, String nome, Long cpf, Date dataNascimento) {
         super(id, nome, cpf);
         this.dataNascimento = dataNascimento;
+    }
+
+    @Override
+    public String imprimir() {
+        return null;
     }
 
     @Override
@@ -33,12 +37,12 @@ public class Hospede extends Pessoa {
     }
 
     @Override
-    public String getCpf() {
+    public Long getCpf() {
         return super.getCpf();
     }
 
     @Override
-    public void setCpf(String cpf) {
+    public void setCpf(Long cpf) {
         super.setCpf(cpf);
     }
 

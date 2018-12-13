@@ -17,21 +17,6 @@ public class QuartoSimples extends Quarto implements TemRepresentacaoTextual {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        if (!super.equals(o)) return false;
-        QuartoSimples that = (QuartoSimples) o;
-        return Objects.equals(ehDuplo, that.ehDuplo) &&
-                Objects.equals(temArCondicionado, that.temArCondicionado);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(super.hashCode(), ehDuplo, temArCondicionado);
-    }
-
-    @Override
     public Long getId() {
         return super.getId();
     }
@@ -71,6 +56,21 @@ public class QuartoSimples extends Quarto implements TemRepresentacaoTextual {
         super.setQuantidadeMaximaPessoas(quantidadeMaximaPessoas);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        QuartoSimples that = (QuartoSimples) o;
+        return Objects.equals(ehDuplo, that.ehDuplo) &&
+                Objects.equals(temArCondicionado, that.temArCondicionado);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), ehDuplo, temArCondicionado);
+    }
+
     public Boolean getEhDuplo() {
         return ehDuplo;
     }
@@ -92,13 +92,13 @@ public class QuartoSimples extends Quarto implements TemRepresentacaoTextual {
 
         String representacao = "";
 
-        representacao += "\nQuartoMaster";
+        representacao += "\nTipo: Simples";
         representacao += "\nId: " + super.getId();
         representacao += "\nNumero: " + super.getNumero();
         representacao += "\nAndar: " + super.getAndar();
-        representacao += "\nQtdeMaxPessoas: " + super.getQuantidadeMaximaPessoas();
-        representacao += "\nTemArCondicionado? " + temArCondicionado;
-        representacao += "\nÉ Duplo? " + ehDuplo;
+        representacao += "\nQtde Máx. Pessoas: " + super.getQuantidadeMaximaPessoas();
+        representacao += "\nTem Arcondicionado? " + (temArCondicionado? "Sim" : "Não");
+        representacao += "\nÉ Duplo? " + (ehDuplo? "Sim" : "Não");
 
         return representacao;
     }
