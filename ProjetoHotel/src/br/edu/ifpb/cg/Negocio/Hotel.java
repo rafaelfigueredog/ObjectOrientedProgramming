@@ -36,6 +36,10 @@ public class Hotel implements Serializable  {
         this.funcionarios.add(funcionario);
     }
 
+    public void adicionarHospede(Hospede hospede) {
+        this.hospedes.add(hospede);
+    }
+
     public List getFuncionarios() {
         return funcionarios;
     }

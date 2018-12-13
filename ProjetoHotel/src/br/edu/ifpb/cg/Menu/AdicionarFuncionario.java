@@ -26,6 +26,7 @@ public class AdicionarFuncionario extends AbstractMenu {
 
         Funcionario funcionario = new Funcionario(id, nome, cpf, salario);
         hotel.adicionarFuncionario(funcionario);
+        System.out.println("\nFuncionário adicionado!");
         return false;
     }
 }

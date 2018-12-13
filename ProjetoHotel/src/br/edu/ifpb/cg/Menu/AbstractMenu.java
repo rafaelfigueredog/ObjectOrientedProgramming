@@ -1,6 +1,9 @@
 package br.edu.ifpb.cg.Menu;
 import br.edu.ifpb.cg.Negocio.Hotel;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public abstract class AbstractMenu implements Menu {
@@ -99,5 +102,23 @@ public abstract class AbstractMenu implements Menu {
         }
         return valor;
     }
+
+
+    protected Date obterValorDate(String mensagem) {
+        Date valor = null;
+        while(valor == null) {
+            System.out.print(mensagem);
+            try {
+                String data = this.input.nextLine();
+                SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+                sdf.setLenient(false);
+                valor = sdf.parse(data);
+            } catch ( NumberFormatException | ParseException e) {
+                System.out.println("Erro! Valor inválido. Tente novamente!");
+            }
+        }
+        return valor;
+    }
+
 
 }
