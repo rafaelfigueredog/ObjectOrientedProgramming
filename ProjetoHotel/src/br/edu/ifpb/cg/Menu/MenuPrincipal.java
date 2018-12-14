@@ -1,4 +1,5 @@
 package br.edu.ifpb.cg.Menu;
+import br.edu.ifpb.cg.Exceptions.FuncionarioNãoEncontradoException;
 import br.edu.ifpb.cg.Exceptions.HotelExeptions;
 import br.edu.ifpb.cg.Negocio.Hotel;
 import java.util.Scanner;

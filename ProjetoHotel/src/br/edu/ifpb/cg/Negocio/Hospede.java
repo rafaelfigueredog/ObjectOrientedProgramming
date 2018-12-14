@@ -1,5 +1,4 @@
 package br.edu.ifpb.cg.Negocio;
-import java.text.DateFormat;
 import java.util.Date;
 
 public class Hospede extends Pessoa {
@@ -12,13 +11,8 @@ public class Hospede extends Pessoa {
         this.dataNascimento = dataNascimento;
     }
 
-
-
-
     @Override
     public String imprimir() {
-
-        
 
         String representacao = "";
 

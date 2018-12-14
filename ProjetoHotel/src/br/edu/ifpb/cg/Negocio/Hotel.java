@@ -1,5 +1,8 @@
 package br.edu.ifpb.cg.Negocio;
+import br.edu.ifpb.cg.Exceptions.HotelExeptions;
 import br.edu.ifpb.cg.GeradorId.GeradorId;
+import sun.security.smartcardio.SunPCSC;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +43,23 @@ public class Hotel implements Serializable  {
         this.hospedes.add(hospede);
     }
 
+    public void adicionarHopedagem(Hospedagem novaHospedagem) throws HotelExeptions {
+        if (hospedagens.isEmpty()) {
+            hospedagens.add(novaHospedagem);
+        } else {
+
+            for (Hospedagem hospedagem: hospedagens) {
+                if ( hospedagem.getPeriodo().getDataFinal().compareTo(novaHospedagem.getPeriodo().getDataInicial()) <= 0 ) {
+                    if ( hospedagem.getFuncionario().equals(novaHospedagem.getFuncionario()))
+                        throw new HotelExeptions("Funcionario Não Disponivel nessa Data");
+                    if ( hospedagem.getQuarto().equals(novaHospedagem.getQuarto()) )
+                        throw new HotelExeptions("Quarto Não Disponivel nessa Data");
+                }
+            }
+            hospedagens.add(novaHospedagem);
+        }
+    }
+
     public List getFuncionarios() {
         return funcionarios;
     }
@@ -51,6 +71,7 @@ public class Hotel implements Serializable  {
     public List getQuartos() {
         return quartos;
     }
+
 
     public void setQuartos(List quartos) {
         this.quartos = quartos;
