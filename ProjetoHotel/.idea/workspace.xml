@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be93d9d3-b0d9-4b74-9a0c-6bfd96229bcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/FuncionarioNãoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/HospedeNaoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/QuartoNaoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Periodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AdicionarHospedagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AdicionarHospedagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarHospedagens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarHospedagens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/MenuPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioRendaGerada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioRendaGerada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Funcionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospedagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospedagem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospede.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospede.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Periodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Periodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Quarto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Quarto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/cg/TemRepresentacaoTextual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/cg/TemRepresentacaoTextual.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,50 +55,52 @@
     <session id="-1266210569">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="37" />
-          <entry key="java" value="9087" />
+          <entry key="java" value="9753" />
           <entry key="txt" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9087" />
+          <entry key="JAVA" value="9753" />
           <entry key="PLAIN_TEXT" value="164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="209" />
+          <entry key="java" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="209" />
+          <entry key="JAVA" value="239" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="198">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,49 +109,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioValores.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/FuncionarioNãoEncontradoException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AdicionarHospedagem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/TemRepresentacaoTextual.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioHospedagens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioRendaGerada.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+            <state relative-caret-position="96">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
               <folding>
-                <element signature="e#866#887#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Funcionario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1752">
+              <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospedagem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2136">
+              <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3069#3070#0" expanded="true" />
+                <element signature="e#3096#3097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Periodo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/HotelExeptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -160,8 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="48" />
+            <state relative-caret-position="768">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,22 +180,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/MenuPrincipal.java">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/TemRepresentacaoTextual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="48">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -193,8 +191,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarHospedagens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="672">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -237,50 +235,49 @@
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/GeradorId/GeradorId.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Armazenamento/Armazenamento.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/GeradorId/GeradorIdNanoTime.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/TemRepresentacaoTextual.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarQuartos.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Quarto.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/GeradorId/GeradorIdSequencial.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/QuartoMaster.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/QuartoSimples.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Pessoa.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarFuncionarios.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AbstractMenu.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarHospedes.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AdicionarFuncionario.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AdicionarQuarto.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AdicionarHospede.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospede.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Main.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/FuncionarioNãoEncontradoException.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/FuncionarioNãoEncontradoException.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/QuartoNaoEncontradoExceptions.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/QuartoNaoEncontradoException.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/HospedeNaoEncontradoException.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/MenuPrincipal.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/Menu.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hotel.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Periodo.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarHospedagens.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/TemRepresentacaoTextual.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Funcionario.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Quarto.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospedagem.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospede.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioRendaGerada.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AdicionarHospedagem.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/FuncionarioNãoEncontradoException.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Periodo.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hotel.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifpb/cg/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-14" />
+    <option name="x" value="356" />
+    <option name="y" value="418" />
     <option name="width" value="960" />
-    <option name="height" value="1093" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,28 +296,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cg" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProjetoHotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoHotel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cg" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetoHotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoHotel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cg" type="462c0819:PsiDirectoryNode" />
-              <item name="Negocio" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544800565833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544809271975" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -378,13 +363,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544712599318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Funções: adicionarHospedes, listarHospedes">
+      <created>1544800825669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544800825669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-14" width="1920" height="1094" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20437567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20864461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,7 +386,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32983193" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39915967" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39978677" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -411,8 +404,38 @@
       <window_info anchor="right" id="Flutter Outline" order="7" />
       <window_info anchor="right" id="Flutter Inspector" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info active="true" anchor="right" id="Run" order="10" visible="true" weight="0.41568837" />
+      <window_info anchor="right" id="Run" order="10" weight="0.2764141" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20651014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983193" />
+      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.39978677" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Flutter Inspector" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Run" order="10" weight="0.4759872" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -431,8 +454,23 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hotel.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>hospedagem.getPeriodo().getDataFinal().compareTo(novaHospedagem.getPeriodo().getDataInicial())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/MeuNegocio.java" />
@@ -460,31 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Armazenamento/Armazenamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/development/jdk1.8.0_191/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="360" column="49" selection-start-line="360" selection-start-column="49" selection-end-line="360" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="83" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/QuartoMaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -498,24 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarQuartos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarFuncionarios.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Quarto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="94" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -542,54 +545,6 @@
             <element signature="e#264#265#0" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/QuartoSimples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/FuncionarioNãoEncontradoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/development/jdk1.8.0_191/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="978" column="41" lean-forward="true" selection-start-line="978" selection-start-column="41" selection-end-line="978" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/HotelExeptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Pessoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospede.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -624,32 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospedagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Periodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AbstractMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -678,6 +607,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioValores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioHospedagens.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -685,20 +621,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/TemRepresentacaoTextual.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/MenuPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="2256">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioRendaGerada.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarQuartos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
-          <folding>
-            <element signature="e#866#887#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/development/jdk1.8.0_191/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="978" column="41" lean-forward="true" selection-start-line="978" selection-start-column="39" selection-end-line="978" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/development/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="908" selection-start-line="908" selection-end-line="908" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Quarto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="101" column="46" lean-forward="true" selection-start-line="101" selection-start-column="46" selection-end-line="101" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/QuartoMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/QuartoSimples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -709,54 +687,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioValores.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospede.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarHospedagens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/MenuPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="678">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hotel.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/RelatorioRendaGerada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="366">
+          <caret line="42" column="70" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/AdicionarHospedagem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        <state relative-caret-position="256">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Armazenamento/Armazenamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/development/jdk1.8.0_191/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="976" column="15" selection-start-line="976" selection-start-column="15" selection-end-line="976" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/FuncionarioNãoEncontradoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1752">
+          <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hospedagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2136">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
+            <element signature="e#3096#3097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Periodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Exceptions/HotelExeptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Negocio/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/TemRepresentacaoTextual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifpb/cg/Menu/ListarHospedagens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>

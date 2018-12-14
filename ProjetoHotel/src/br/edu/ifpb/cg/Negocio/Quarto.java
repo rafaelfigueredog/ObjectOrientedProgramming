@@ -94,4 +94,12 @@ public abstract class Quarto implements Serializable, TemRepresentacaoTextual {
 
         return representacao;
     }
+
+    @Override
+    public String imprimirCompacto() {
+        String representacao = "";
+        representacao += "\nQuarto: " + getClass().getSimpleName();
+        representacao += "\nId: " + id + "\n";
+        return representacao;
+    }
 }

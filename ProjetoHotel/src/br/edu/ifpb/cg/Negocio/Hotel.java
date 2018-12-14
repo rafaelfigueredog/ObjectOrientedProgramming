@@ -47,16 +47,19 @@ public class Hotel implements Serializable  {
         if (hospedagens.isEmpty()) {
             hospedagens.add(novaHospedagem);
         } else {
-
             for (Hospedagem hospedagem: hospedagens) {
-                if ( hospedagem.getPeriodo().getDataFinal().compareTo(novaHospedagem.getPeriodo().getDataInicial()) <= 0 ) {
+                if ( hospedagem.getPeriodo().getDataFinal().after(novaHospedagem.getPeriodo().getDataInicial()) ) {
                     if ( hospedagem.getFuncionario().equals(novaHospedagem.getFuncionario()))
                         throw new HotelExeptions("Funcionario Não Disponivel nessa Data");
-                    if ( hospedagem.getQuarto().equals(novaHospedagem.getQuarto()) )
+                    else if ( hospedagem.getQuarto().equals(novaHospedagem.getQuarto()) )
                         throw new HotelExeptions("Quarto Não Disponivel nessa Data");
+                    else {
+                        this.hospedagens.add(novaHospedagem);
+                    }
+                } else {
+                    this.hospedagens.add(novaHospedagem);
                 }
             }
-            hospedagens.add(novaHospedagem);
         }
     }
 

@@ -4,4 +4,6 @@ public interface TemRepresentacaoTextual {
 
     public String imprimir();
 
+    public String imprimirCompacto();
+
 }

@@ -1,10 +1,12 @@
 package br.edu.ifpb.cg.Negocio;
-
+import br.edu.ifpb.cg.TemRepresentacaoTextual;
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Objects;
 
-public class Periodo implements Serializable {
+public class Periodo implements Serializable, TemRepresentacaoTextual {
 
     private static final long serialVersionUID = 1L;
     private Date dataInicial;
@@ -45,4 +47,17 @@ public class Periodo implements Serializable {
         return Objects.hash(dataInicial, dataFinal);
     }
 
+    @Override
+    public String imprimir() {
+        String representacao = "";
+        DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+        representacao += df.format(this.dataInicial) + "," ;
+        representacao += df.format(this.dataFinal) +  "\n";
+        return representacao;
+    }
+
+    @Override
+    public String imprimirCompacto() {
+        return null;
+    }
 }

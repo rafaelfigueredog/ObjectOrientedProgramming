@@ -85,4 +85,14 @@ public class Funcionario extends Pessoa {
 
         return representacao;
     }
+
+    @Override
+    public String imprimirCompacto() {
+
+        String representacao = "";
+        representacao += "\nFuncionario: " + super.getNome();
+        representacao += "\nId: " + super.getId() + "\n";
+
+        return representacao;
+    }
 }

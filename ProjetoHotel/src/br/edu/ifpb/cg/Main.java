@@ -5,6 +5,8 @@ import br.edu.ifpb.cg.GeradorId.GeradorId;
 import br.edu.ifpb.cg.GeradorId.GeradorIdNanoTime;
 import br.edu.ifpb.cg.Menu.MenuPrincipal;
 import br.edu.ifpb.cg.Negocio.Hotel;
+
+import java.security.interfaces.DSAPublicKey;
 import java.util.Scanner;
 
 public class Main {
@@ -31,5 +33,6 @@ public class Main {
                 armazenamento.armazenar(hotel);
             }
         }
+
     }
 }

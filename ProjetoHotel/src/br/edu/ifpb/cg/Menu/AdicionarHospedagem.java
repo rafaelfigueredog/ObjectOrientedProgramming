@@ -49,8 +49,10 @@ public class AdicionarHospedagem extends AbstractMenu {
 
             Collection<Quarto> quartos = hotel.getQuartos();
             for (Quarto quarto: quartos) {
-                System.out.println(quarto.imprimir());
+                quarto.imprimirCompacto();
             }
+            System.out.println();
+
 
             id = obterValorLong("Digite o ID do Quarto: ");
             for (Quarto quarto : quartos) {
@@ -62,8 +64,9 @@ public class AdicionarHospedagem extends AbstractMenu {
 
             Collection<Funcionario> funcionarios = hotel.getFuncionarios();
             for (Funcionario funcionario: funcionarios) {
-                System.out.println(funcionario.imprimir());
+                funcionario.imprimirCompacto();
             }
+
 
             id = obterValorLong("Digite o ID do Funcionario: ");
             for (Funcionario funcionario: funcionarios) {
@@ -75,7 +78,7 @@ public class AdicionarHospedagem extends AbstractMenu {
 
             Collection<Hospede> hospedes = hotel.getHospedes();
             for (Hospede hospede: hospedes) {
-                System.out.println(hospede.imprimir());
+                hospede.imprimirCompacto();
             }
 
             id = obterValorLong("Digite o ID do Hospede: ");
@@ -97,12 +100,8 @@ public class AdicionarHospedagem extends AbstractMenu {
                 hospedagem = new Hospedagem(id, quartoSelecionado, funcionarioSelecionado, hospedeSelecionado, periodo, valor);
                 hotel.adicionarHopedagem(hospedagem);
             } catch (HotelExeptions e) {
-                e.getMessage();
-                System.out.println("Tente Novamente em outra data! ");
+                System.out.println(e.getMessage());
             }
-
-
-
         }
         return false;
     }

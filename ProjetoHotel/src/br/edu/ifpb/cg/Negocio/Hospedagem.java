@@ -33,7 +33,7 @@ public class Hospedagem implements Serializable, TemRepresentacaoTextual {
         representacao += "\nQuarto: " + quarto.getNumero() + ", " + quarto.getClass().getSimpleName();
         representacao += "\nFuncionario: " + this.funcionario.getNome();
         representacao += "\nValor: " + this.valor;
-        representacao += "\nPerido: " + this.periodo.getDataInicial() + ", " + this.periodo.getDataFinal();
+        representacao += "\nPerido: " + this.periodo.imprimir();
 
         return representacao;
     }
@@ -113,5 +113,10 @@ public class Hospedagem implements Serializable, TemRepresentacaoTextual {
     @Override
     public int hashCode() {
         return Objects.hash(id, quarto, funcionario, hospede, periodo);
+    }
+
+    @Override
+    public String imprimirCompacto() {
+        return null;
     }
 }

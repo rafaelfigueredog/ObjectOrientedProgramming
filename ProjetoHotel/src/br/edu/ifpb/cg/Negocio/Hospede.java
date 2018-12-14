@@ -75,4 +75,9 @@ public class Hospede extends Pessoa {
                 "dataNascimento=" + dataNascimento +
                 '}';
     }
+
+    @Override
+    public String imprimirCompacto() {
+        return null;
+    }
 }
