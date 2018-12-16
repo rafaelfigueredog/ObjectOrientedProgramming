@@ -1,16 +1,19 @@
 package br.edu.ifpb;
 
+import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Livro  {
+public class Livro implements Serializable, Show{
+
+    private static final Long SerialVersionUID = 1L;
 
     private Long id;
     private String Titulo;
     private Date lancamento;
     private Integer edicao;
 
-    public Livro(Long id, String titulo, Date lancamento, Integer edicao) {
-        this.id = id;
+    public Livro(String titulo, Date lancamento, Integer edicao) {
         Titulo = titulo;
         this.lancamento = lancamento;
         this.edicao = edicao;
@@ -56,5 +59,21 @@ public class Livro  {
                 ", lancamento=" + lancamento +
                 ", edicao=" + edicao +
                 '}';
+    }
+
+    @Override
+    public String show() {
+
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
+
+        String show = "";
+
+        show += "\nLivro: " + getTitulo();
+        show += "\nId: " + getId();
+        show += "\nEdicao: " + getEdicao();
+        show += "\nAno Lançamento: " + sdf.format(getLancamento()) + "\n";
+
+        return show;
     }
 }

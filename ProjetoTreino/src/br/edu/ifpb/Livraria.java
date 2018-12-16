@@ -1,9 +1,12 @@
 package br.edu.ifpb;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class Livraria {
+public class Livraria implements Serializable {
+
+    private static final long SerialVersionUID = 1L;
 
     private Collection<Livro> livros;
     private GeradorID geradorID;
@@ -15,21 +18,24 @@ public class Livraria {
 
     public void adicionarLivro( Livro livro ) {
 
+        Long id = this.geradorID.obterProximoId(this);
+        livro.setId(id);
         this.livros.add(livro);
 
     }
 
 
-    public void removerLivro( Long id ) {
+    public void removerLivro( Long id ) throws LivrariaException {
         Livro livroSelecionado = null;
         for (Livro livro : this.livros ) {
             if ( livro.getId().equals(id) ) {
                 livroSelecionado = livro;
             }
         }
-        if (livroSelecionado != null) {
-            livros.remove(livroSelecionado);
+        if (livroSelecionado == null) {
+            throw new LivroNaoEncontradoException(id);
         }
+        livros.remove(livroSelecionado);
     }
 
 
