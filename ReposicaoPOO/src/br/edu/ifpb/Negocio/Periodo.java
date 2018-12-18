@@ -1,6 +1,9 @@
 package br.edu.ifpb.Negocio;
 
+import br.edu.ifpb.Imprimir;
+
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Periodo implements Serializable {
@@ -30,11 +33,11 @@ public class Periodo implements Serializable {
         this.dataFinal = dataFinal;
     }
 
+
+
     @Override
     public String toString() {
-        return "Periodo{" +
-                "dataInicial=" + dataInicial +
-                ", dataFinal=" + dataFinal +
-                '}';
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        return sdf.format(dataInicial) + " " + sdf.format(dataFinal);
     }
 }

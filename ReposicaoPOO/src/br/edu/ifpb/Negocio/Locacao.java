@@ -1,8 +1,10 @@
 package br.edu.ifpb.Negocio;
 
+import br.edu.ifpb.Imprimir;
+
 import java.io.Serializable;
 
-public class Locacao implements Serializable {
+public class Locacao implements Serializable, Imprimir {
 
     private Long id;
     private Cliente cliente;
@@ -110,5 +112,25 @@ public class Locacao implements Serializable {
                 ", pago=" + pago +
                 ", gostou=" + gostou +
                 '}';
+    }
+
+
+    @Override
+    public void show() {
+        String impressao = "";
+        impressao += "ID: " + getId() + "\n";
+        impressao += "Cliente: " + getCliente().getNome() + "\n";
+        impressao += "Funcionario: " + getFuncionario().getNome() + "\n";
+        impressao += "Midia: " + getMidia().getTitulo() + "\n";
+        impressao += "Valor Aluguel: " + getValorAluguel() + "\n";
+        impressao += "Perido: " + getPeriodo() + "\n";
+        impressao += "Pago:  " + (getPago() ? "Sim" : "Não") + "\n";
+        if (valorMulta != null) {
+            impressao += "Valor Aluguel: " + getValorMulta() + "\n";
+        }
+        if ( gostou != null ) {
+            impressao += "Gostou:  " +  ( getGostou() ? "Sim" : "Não" );
+        }
+        System.out.println(impressao);
     }
 }

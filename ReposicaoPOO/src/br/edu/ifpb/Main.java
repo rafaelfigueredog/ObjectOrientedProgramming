@@ -17,7 +17,7 @@ public class Main {
               continuarExecucao = menuPrincipal.exibirMenu();
           } catch (LocadoraException e) {
               System.out.println();
-              System.err.println(e.getMessage());
+              System.err.println("  " + e.getMessage() + "  ");
               System.out.println();
           } finally {
               armazenamento.salvar(locadora);

@@ -20,12 +20,12 @@ public class Midia implements Serializable, Imprimir {
 
     @Override
     public void show() {
-        String impressao = "";
-        impressao += this.getId()             + "\n";
-        impressao += this.getTitulo()         + "\n";
-        impressao += this.getAnoLancamento()  + "\n";
-        impressao += this.getDuracao()        + "\n";
-        System.out.println(impressao);
+        String impressao = "Midia: " + this.getClass().getSimpleName() + "\n";
+        impressao += "ID: " + this.getId()             + "\n";
+        impressao += "Titulo: " + this.getTitulo()         + "\n";
+        impressao += "Ano Lançamento: " + this.getAnoLancamento()  + "\n";
+        impressao += "Duração: " + this.getDuracao()        + "\n";
+        System.out.print(impressao);
     }
 
     public Long getId() {

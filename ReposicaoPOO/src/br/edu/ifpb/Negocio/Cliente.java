@@ -13,12 +13,9 @@ public class Cliente extends Pessoa {
 
     @Override
     public void show() {
-        String impressao = "";
-        impressao += this.getId()   + "\n";
-        impressao += this.getNome() + "\n";
-        impressao += this.getCpf()  + "\n";
-        impressao += this.getEndereco() + "\n";
-        System.out.println(impressao);
+        super.show();
+        String impressao = "Endereço: "  + this.getEndereco();
+        System.out.print(impressao);
     }
 
     public String getEndereco() {

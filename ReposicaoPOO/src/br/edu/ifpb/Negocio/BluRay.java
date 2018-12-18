@@ -16,4 +16,13 @@ public class BluRay extends MidiaFilme {
     public void setEh3D(Boolean eh3D) {
         this.eh3D = eh3D;
     }
+
+    @Override
+    public void show() {
+        super.show();
+        String impressao = "\n";
+        impressao += "3D? ";
+        impressao += eh3D? "Sim" : "Não";
+        System.out.print(impressao);
+    }
 }

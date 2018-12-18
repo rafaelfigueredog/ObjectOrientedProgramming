@@ -9,5 +9,17 @@ public class MidiaFilme extends Midia {
         this.temConteudoExtra = temConteudoExtra;
     }
 
+    @Override
+    public String toString() {
+        return "MidiaFilme{" +
+                "temConteudoExtra=" + temConteudoExtra +
+                "} " + super.toString();
+    }
 
+    public void show() {
+        super.show();
+        String impressao = "Tem Conteudo Extra? ";
+        impressao += temConteudoExtra ? "Sim" : "Não";
+        System.out.print(impressao);
+    }
 }

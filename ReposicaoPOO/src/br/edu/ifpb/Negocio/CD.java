@@ -16,4 +16,11 @@ public class CD extends Midia {
     public void setQuantidadeFaixas(Integer quantidadeFaixas) {
         this.quantidadeFaixas = quantidadeFaixas;
     }
+
+    @Override
+    public void show() {
+        super.show();
+        String impressao = "Quantidade de Faixas: " + quantidadeFaixas;
+        System.out.print(impressao);
+    }
 }

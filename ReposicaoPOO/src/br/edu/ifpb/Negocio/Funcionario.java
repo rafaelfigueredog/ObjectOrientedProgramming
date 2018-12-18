@@ -13,12 +13,9 @@ public class Funcionario extends Pessoa {
 
     @Override
     public void show() {
-        String impressao = "";
-        impressao += this.getId()   + "\n";
-        impressao += this.getNome() + "\n";
-        impressao += this.getCpf()  + "\n";
-        impressao += "$ " + this.getSalario() + "\n";
-        System.out.println(impressao);
+        super.show();
+        String impressao = "Salario: $ " + this.getSalario();
+        System.out.print(impressao);
     }
 
     public Double getSalario() {

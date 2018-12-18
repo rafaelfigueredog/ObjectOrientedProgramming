@@ -67,9 +67,9 @@ public abstract class Pessoa implements Serializable, Imprimir {
     @Override
     public void show() {
         String impressao = "";
-        impressao += this.getId()   + "\n";
-        impressao += this.getNome() + "\n";
-        impressao += this.getCpf()  + "\n";
-        System.out.println(impressao);
+        impressao += "ID: "   + this.getId()   + "\n";
+        impressao += "Nome: " + this.getNome() + "\n";
+        impressao += "CPF: "  + this.getCpf()  + "\n";
+        System.out.print(impressao);
     }
 }
