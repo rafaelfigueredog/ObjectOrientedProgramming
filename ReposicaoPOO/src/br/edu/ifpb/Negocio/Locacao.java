@@ -126,7 +126,7 @@ public class Locacao implements Serializable, Imprimir {
         impressao += "Perido: " + getPeriodo() + "\n";
         impressao += "Pago:  " + (getPago() ? "Sim" : "Não") + "\n";
         if (valorMulta != null) {
-            impressao += "Valor Aluguel: " + getValorMulta() + "\n";
+            impressao += "Valor Multa: " + getValorMulta() + "\n";
         }
         if ( gostou != null ) {
             impressao += "Gostou:  " +  ( getGostou() ? "Sim" : "Não" );

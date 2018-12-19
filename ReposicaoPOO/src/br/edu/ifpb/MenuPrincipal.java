@@ -72,6 +72,7 @@ public class MenuPrincipal {
                     removerLocacao("Remover Locação");
                     break;
                 case 16:
+                    relatorioReceitaLocadora("Rel. de Receita");
                     break;
                 case 17:
                     return false;
@@ -80,6 +81,25 @@ public class MenuPrincipal {
                     break;
             }
         }
+
+    }
+
+    private void relatorioReceitaLocadora(String tituloMenu) {
+
+        exibirTituloMenu(tituloMenu);
+
+        Double receita = 0.0;
+        for (Locacao locacao: locadora.getLocacoes()) {
+
+            receita += locacao.getValorAluguel();
+
+            if ( locacao.getValorMulta() != null ) {
+                receita += locacao.getValorMulta();
+            }
+
+        }
+        System.out.println("\n  Receita da Locadora: $ " + receita + "\n");
+
 
     }
 
@@ -94,6 +114,7 @@ public class MenuPrincipal {
         this.locadora.getLocacoes().remove(locacao);
         locacao.setGostou(gostou);
         locacao.setValorMulta(multa);
+        locacao.setPago(true);
         this.locadora.getLocacoes().add(locacao);
         System.out.println("\n  Midia devolvida com Sucesso! \n");
 
@@ -118,23 +139,26 @@ public class MenuPrincipal {
 
         this.listarClientes(false, "Clientes");
         Long idCliente = obterValorLong("Digite ID Cliente: ");
+        Cliente cliente = locadora.buscarCliente(idCliente);
         System.out.println();
+
 
         this.listarFuncionarios(false, "Funcionarios");
         Long idFuncionario = obterValorLong("Digite ID Funcionario: ");
+        Funcionario funcionario = locadora.buscarFuncionario(idFuncionario);
         System.out.println();
+
 
         this.listarMidias(false, "Midias");
         Long idMidia = obterValorLong("Digite ID Midia: ");
+        Midia midia = locadora.buscarMidia(idMidia);
         System.out.println();
 
         Double valorDoAluguel = obterValorDouble("Valor R$: ");
+
         Date dataInicial = obterValorDate("Data do Aluguel: ");
         Date dataFinal = obterValorDate("Data Devolucao: ");
         Periodo periodo = new Periodo(dataInicial, dataFinal);
-        Cliente cliente = locadora.buscarCliente(idCliente);
-        Midia midia = locadora.buscarMidia(idMidia);
-        Funcionario funcionario = locadora.buscarFuncionario(idFuncionario);
         Locacao locacao = new Locacao(cliente, funcionario, midia, valorDoAluguel, periodo);
         this.locadora.adicionarLocacao(locacao);
         System.out.println("\n  Midia alugada com Sucesso! \n");
