@@ -1,6 +1,6 @@
 # Programação Orientada a Objetos
 
-<img src="https://github.com/rafaelfigueredog/ObjectOrientedProgramming/blob/master/Pictures/objectcub.gif" width="300"/>
+<img src="https://github.com/rafaelfigueredog/ObjectOrientedProgramming/blob/master/Pictures/objectcub.gif" width="150"/>
 
 Repositório destinado as atividades realizadas nas disciplinas de Programação Orientada a Objetos e Laboratório de Porgramação Orientada a Objetos.
 
@@ -10,4 +10,4 @@ Repositório destinado as atividades realizadas nas disciplinas de Programação
 
 #### Créditos
 
-[[1]] (https://br.pinterest.com/pin/606719381035131245/) _Gif from pinterest_
+[[1]](https://br.pinterest.com/pin/606719381035131245/) _Gif from pinterest_
