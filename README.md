@@ -6,7 +6,15 @@ Repositório destinado as atividades realizadas nas disciplinas de Programação
 
 **Tópicos Abordados**
 
-![Tópicos](https://github.com/rafaelfigueredog/ObjectOrientedProgramming/blob/master/Pictures/conteudos.png)
+- Objetos
+- Classes 
+- Encapsulamento
+- Herança
+- Polimorfismo
+- Interfaces
+- Abstração
+- Try/Exception
+- Arquivos
 
 #### Créditos
 
