@@ -1,21 +1,40 @@
-# Programação Orientada a Objetos
+# Object Oriented Programming Assignments
 
-<img src="https://github.com/rafaelfigueredog/ObjectOrientedProgramming/blob/master/Pictures/objectcub.gif" width="150"/>
+This repository contains the assignments for the ObjectOrientedProgramming course in the Computer Engineering program. The assignments are focused on developing skills in object-oriented programming through the implementation of various programming concepts.
 
-Repositório destinado as atividades realizadas nas disciplinas de Programação Orientada a Objetos e Laboratório de Porgramação Orientada a Objetos.
+## Table of Contents
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-**Tópicos Abordados**
+<a name="requirements"></a>
+## Requirements
+To run the programs in this repository, you need to have the following installed on your computer:
 
-- Objetos
-- Classes 
-- Encapsulamento
-- Herança
-- Polimorfismo
-- Interfaces
-- Abstração
-- Try/Exception
-- Arquivos
+Java 8.0 or higher
 
-#### Créditos
+An IDE (such as IntelliJ IDEA) or a text editor (such as Sublime Text or Atom)
 
-[[1]](https://br.pinterest.com/pin/606719381035131245/) _Gif from pinterest_
+<a name="installation"></a>
+## Installation
+To get started, clone this repository onto your computer:
+
+
+~~~bash
+git clone https://github.com/rafaelfigueredog/ObjectOrientedProgramming.git
+~~~
+
+Then, navigate to the repository:
+
+~~~bash
+cd ObjectOrientedProgramming
+~~~
+
+<a name="usage"></a>
+## Usage
+Each assignment is contained in its own folder and includes instructions for what needs to be implemented. To run a program, navigate to its folder and run the main Java file.
+
+<a name="contributing"></a>
+## Contributing
+Contributions to this repository are welcome. If you notice any issues or have suggestions for how to improve the assignments, please submit a pull request.
